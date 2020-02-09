@@ -43,7 +43,7 @@ class Basket extends Component {
       ) :
 
       (
-        <p>Nothing.</p>
+        <p>You haven't ordered anything yet.</p>
       )
     return (
       <div className="container">
