@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { addToBasket } from '../actions'
 
- class Home extends Component{
+ class TreeHouses extends Component{
   handleClick = (id)=>{
     this.props.addToBasket(id); 
   }
@@ -43,4 +43,4 @@ const mapDispatchToProps= (dispatch)=>{
   }
 }
 
-export default connect(mapStateToProps,mapDispatchToProps)(Home)
+export default connect(mapStateToProps,mapDispatchToProps)(TreeHouses)
