@@ -20,17 +20,17 @@ class Recipe extends Component {
 
     return (
       <div className="container">
-        <div className="collection">
-          <li className="collection-item">
+        <div >
+          <div className="collection-item">
             <label>
               <input type="checkbox" ref="shipping" onChange={this.handleChecked} />
               <span>Shipping(+£30)</span>
             </label>
-          </li>
-          <li className="collection-item"><b>Total: £ {this.props.total} </b></li>
+          </div>
+          <div className="collection-item"><b>Total: £ {this.props.total} </b></div>
         </div>
-        <div className="checkout">
-          <button className="waves-effect waves-light btn">Checkout</button>
+        <div >
+          <button className="cheackout-btn">Checkout</button>
         </div>
       </div>
     )
