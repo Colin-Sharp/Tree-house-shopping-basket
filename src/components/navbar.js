@@ -35,9 +35,9 @@ class Navbar extends React.Component {
             <i id="toggleBtn" className="fas fa-bars"></i>
           </div>
           <div className="nav-bar">
-          <ul id="nav-bar">
+          <ul >
               <li >
-                <Link  to="/">Home <span className="sr-only">(current)</span></Link>
+                <Link  to="/">Home</Link>
               </li>
               <li >
                 <Link  to="/tree-houses">Tree Houses</Link>
