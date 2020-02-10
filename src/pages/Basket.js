@@ -64,7 +64,6 @@ class Basket extends Component {
           </ul>
         </div>
         <Recipe />
-        
         <CarouselComponent 
       pic1={tree1}
       alt1="tree house"

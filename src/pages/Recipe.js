@@ -30,7 +30,7 @@ class Recipe extends Component {
           <div className="collection-item"><b>Total: £ {this.props.total} </b></div>
         </div>
         <div >
-          <button className="cheackout-btn">Checkout</button>
+          <button className="btn btn-success">Checkout</button>
         </div>
       </div>
     )
