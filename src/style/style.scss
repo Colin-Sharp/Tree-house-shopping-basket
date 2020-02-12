@@ -33,14 +33,16 @@ hr {
   display: none;
 }
 h1{
-  padding: 20px 0;
+  padding: 20px 0 10px;
+  color: $side-color;
+  font-family: $font-family;
 }
 p,
-h1,
 h2,
 h3 {
   color: $side-color;
   font-family: $font-family;
+  padding: 3px 0;
 }
 
 // common code end
@@ -150,17 +152,24 @@ nav#side-bar ul a {
 
 // Tree houses start
 .card {
-  box-shadow: 2px 2px gray;
-  margin: 10px auto;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
   display: flex;
   max-width: 700px;
+  border-radius: 10px;
+}
+.card-title {
+  color: $side-color;
+  font-size: 20px;
 }
 .card img {
   width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .fas.fa-plus-circle{
-  color: red;
-  font-size: 20px;
+  color: #21bf73;
+  font-size: 30px;
   padding: 5px ;
 }
 // Tree house end
