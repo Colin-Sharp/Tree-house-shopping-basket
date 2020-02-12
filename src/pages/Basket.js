@@ -28,7 +28,7 @@ class Basket extends Component {
       (
         this.props.items.map(item => {
           return (
-            <div  key={item.id} className="card">
+            <div  key={item.id} className="card basket">
               <div >
               <div className="card-img">
                 <img src={item.img} alt={item.img} className="" />
@@ -45,26 +45,30 @@ class Basket extends Component {
                   <Link to="/basket"><i className="fas fa-arrow-up" onClick={() => { this.handleAddQuantity(item.id) }}></i></Link>
                   <Link to="/basket"><i className="fas fa-arrow-down" onClick={() => { this.handleSubtractQuantity(item.id) }}></i></Link>
                 </div>
-                <button className="waves-effect waves-light btn pink remove" onClick={() => { this.handleRemove(item.id) }}>Remove</button>
+                <button className="btn btn-danger" onClick={() => { this.handleRemove(item.id) }}>Remove</button>
               </div>
+              <div >
+          <button className="btn btn-success">Checkout</button>
+        </div>
             </div>
           )
         })
       ) :
 
       (
-        <p className="nothing-order">You haven't ordered anything yet.</p>
+        <p className="nothing-order">You haven't ordered anything.</p>
       )
     return (
       <div className="container">
         <div className="cart">
-          <h3>You have ordered:</h3>
+          <h1>You have ordered:</h1>
           <ul className="collection">
             {addedItems}
           </ul>
         </div>
         <Recipe />
-        <CarouselComponent 
+        <hr />
+        <CarouselComponent className="carousel"
       pic1={tree1}
       alt1="tree house"
       pic2={tree2}  
@@ -76,6 +80,7 @@ class Basket extends Component {
       pic5={tree5}  
       alt5="tree house"
       />
+      <hr />
        <div className="space" ></div>
        
       </div>
