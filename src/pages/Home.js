@@ -16,10 +16,12 @@ const Home = () => {
   return (
     <div style={{ maxWidth: "90%", margin: "10px 5%", textAlign: "center"}}>
       <h1>Magical Tree Houses</h1>
+      <hr/>
       <section>
         <p>Your dream tree house, made with recycled materials to create a magical place.</p>
       </section>
-      <CarouselComponent 
+      <hr/>
+      <CarouselComponent className="carousel"
       pic1={tree1}
       alt1="tree house"
       pic2={tree2}  
@@ -31,12 +33,14 @@ const Home = () => {
       pic5={tree5}  
       alt5="tree house"
       />
+      <hr/>
       <section>
         <p>We have a unique setup that makes it easy to put up and take down. Also ensures no 
          damage to the tree.
         </p>
+      <hr/>
       </section>
-     <CarouselComponent 
+     <CarouselComponent className="carousel"
       pic1={build1}
       alt1="building a tree house"
       pic2={build2}
@@ -48,7 +52,9 @@ const Home = () => {
       pic5={build5} 
       alt5="building a tree house"
      />
+    <hr/>
    </div>
+  
   )
 };
 
