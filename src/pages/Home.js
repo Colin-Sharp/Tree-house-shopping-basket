@@ -18,7 +18,11 @@ const Home = () => {
       <h1>Magical Tree Houses</h1>
       <hr/>
       <section>
-        <p>Your dream tree house, made with recycled materials to create a magical place.</p>
+        <p>Your dream tree house, made with recycled materials to create a magical place. 
+          Here a Dream Tree we beleve that haveing a place that you can go and let you 
+          imagination run free is so important. In the times that we are living in where
+          imagination is more import then knowledge.
+        </p>
       </section>
       <hr/>
       <CarouselComponent className="carousel"
@@ -36,7 +40,8 @@ const Home = () => {
       <hr/>
       <section>
         <p>We have a unique setup that makes it easy to put up and take down. Also ensures no 
-         damage to the tree.
+         damage to the tree. The best way is to be close to nature with out harming it. That's 
+         why we alway take the most care when putting up and taking down tree houses.
         </p>
       <hr/>
       </section>
