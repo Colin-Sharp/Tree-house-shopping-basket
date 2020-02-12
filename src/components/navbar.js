@@ -30,7 +30,7 @@ class Navbar extends React.Component {
           </ul>
         </nav>
         <nav id="header" >
-          <Link className="logo" to="/">DreamTree</Link>
+          <Link id="logo" to="/">DreamTree</Link>
           <div className="toggle-button" onClick={e => this.handleToggle()}>
             <i id="toggleBtn" className="fas fa-bars"></i>
           </div>
