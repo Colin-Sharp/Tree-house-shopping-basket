@@ -44,7 +44,9 @@ h3 {
   font-family: $font-family;
   padding: 3px 0;
 }
-
+.d-block.w-100 {
+  border-radius: 5px;
+}
 // common code end
 
 // Header Start
