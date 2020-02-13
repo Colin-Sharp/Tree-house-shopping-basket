@@ -47,9 +47,6 @@ class Basket extends Component {
                 </div>
                 <button className="btn btn-danger" onClick={() => { this.handleRemove(item.id) }}>Remove</button>
               </div>
-              <div >
-          <button className="btn btn-success">Checkout</button>
-        </div>
             </div>
           )
         })
