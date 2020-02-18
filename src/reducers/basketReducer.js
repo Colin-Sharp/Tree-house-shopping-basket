@@ -1,8 +1,8 @@
-import tree1 from '../images/tree1.png'
-import tree2 from '../images/tree2.png'
-import tree3 from '../images/tree3.png'
-import tree4 from '../images/tree4.png'
-import tree5 from '../images/tree5.png'
+import tree1 from '../images/tree1.svg'
+import tree2 from '../images/tree2.svg'
+import tree3 from '../images/tree2.svg'
+import tree4 from '../images/tree2.svg'
+import tree5 from '../images/tree2.svg'
 import { ADD_TO_BASKET, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING } from '../actions/types'
 
 

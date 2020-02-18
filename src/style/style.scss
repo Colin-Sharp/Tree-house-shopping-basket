@@ -1,6 +1,6 @@
 // common code start
 $base-color: #ccedd2;
-$side-color: #35b0ab;
+$side-color: #3fa6e2;
 $text-color: #207561;
 $font-family: 'Rubik', sans-serif;
 @mixin hover {
@@ -154,11 +154,10 @@ nav#side-bar ul a {
 
 // Tree houses start
 .card {
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   margin: 20px auto;
   display: flex;
   max-width: 700px;
-  border-radius: 10px;
 }
 .card-title {
   color: $side-color;
@@ -166,8 +165,6 @@ nav#side-bar ul a {
 }
 .card img {
   width: 100%;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
 }
 .fas.fa-plus-circle{
   color: #21bf73;
