@@ -70,7 +70,7 @@ class Basket extends Component {
     return (
       <div className="container">
         <div className="cart">
-          <h1>You have ordered:</h1>
+          <h1 style={{padding: '100px 0 30px'}}>You have ordered:</h1>
           <ul className="collection">{addedItems}</ul>
         </div>
         <Recipe />

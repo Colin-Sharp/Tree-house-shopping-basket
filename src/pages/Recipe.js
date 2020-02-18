@@ -24,10 +24,10 @@ class Recipe extends Component {
           <div className="collection-item">
             <label>
               <input type="checkbox" ref="shipping" onChange={this.handleChecked} />
-              <span>Shipping(+£30)</span>
+              <span><p>Shipping(+£30)</p></span>
             </label>
           </div>
-          <div className="collection-item"><b>Total: £ {this.props.total} </b></div>
+          <div className="collection-item"><p>Total: £ {this.props.total}</p></div>
         </div>
         <div >
           <button className="btn btn-success">Checkout</button>

@@ -12,8 +12,8 @@ class Home extends Component {
         <div className="card" key={item.id}>
           <div className="card-image">
             <img src={item.img} alt={item.title} />
-            <span className="card-title">{item.title}</span>
-            <span to="/" onClick={() => { this.handleClick(item.id) }}><i className="fas fa-plus-circle"></i></span>
+            <span className="card-title" style={{padding: '5px'}}>{item.title}</span>
+            <span to="/" onClick={() => { this.handleClick(item.id) }}><button className="btn btn-primary" >Add</button></span>
           </div>
           <div className="card-content">
             <p>{item.desc}</p>
